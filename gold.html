@@ -3,85 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ÉLÉGANCE - Gold Collection</title>
     <link rel="stylesheet" href="gold.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+       
+    </style>
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="logo">ÉLÉGANCE</div>
         <ul class="nav-links">
             <li><a href="gold.html">Gold</a></li>
             <li><a href="dimond.html">Diamond</a></li>
-            <li><a href="index.html">All collections</a></li>
+            <li><a href="index.html">Collections</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Craftsmanship</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Timeless Elegance</p>
+            <h1 class="hero-title">Gold Collection</h1>
+            <p class="hero-description">Discover our exquisite range of handcrafted gold jewellery, where timeless artistry meets contemporary design. Each piece tells a story of luxury and sophistication.</p>
+            <a href="#products" class="cta-button">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Section Title -->
+    <div class="section-title" id="products">
+        <h2>Featured Pieces</h2>
+        <p>Curated for You</p>
+    </div>
+
+    <!-- Product Grid -->
     <div class="product-grid">
-
-    <!-- Row 1 and  3 Images -->
-    <div class="card">
-        <img src="goldimages/a.webp" alt="">
-        <h3>Cosmic Echoe</h3>
-        <p>₹ 39999</p>
-    </div>
-
-    <div class="card">
-        <img src="goldimages/gold2.webp" alt="">
-        <h3>Zether Shimmer</h3>
-        <p>₹ 28999</p>
-    </div>
-
-    <div class="card">
-        <img src="goldimages/gold5.webp" alt="">
-        <h3>Obsidian Ray Design</h3>
-        <p>₹ 17999</p>
-    </div>
-
-    <!-- Row 2 – 2 Wide Banners -->
-    <div class="banner">
-        <img src="goldimages/Gemini_Generated_Image_lj34vslj34vslj34.png" alt="">
-    </div>
+        <!-- Row 1 - 3 Images -->
         <div class="card">
-        <img src="goldimages/gold5.webp" alt="">
-        <h3>Stellar Whisper Token</h3>
-        <p>₹12424</p>
-    </div>
+            <img src="goldimages/a.webp" alt="Cosmic Echoe">
+            <div class="card-content">
+                <h3>Cosmic Echoe</h3>
+                <p>₹ 39,999</p>
+            </div>
+        </div>
 
-   
-
-    <!-- Row 3 – Again 3 Images -->
-    <div class="card">
-        <img src="goldimages/gold4.webp" alt="">
-        <h3>Phoenix Rebirth Set</h3>
-        <p>₹ 45999</p>
-    </div>
-
-    <div class="card">
-        <img src="goldimages/b.webp" alt="">
-        <h3>Product Name</h3>
-        <p>₹ 22999</p>
-    </div>
-
-    <div class="card">
-        <img src="goldimages/e.webp" alt="">
-        <h3>emporal Loop Ornament</h3>
-        <p>₹ 31999</p>
-    </div>
-
-     <div class="banner">
-        <img src="goldimages/Gemini_Generated_Image_1gyaku1gyaku1gya.jpeg" alt="">
-    </div>
         <div class="card">
-        <img src="goldimages/c.webp" alt="">
-        <h3>Celestial Mosaic</h3>
-        <p>₹ 31999</p>
+            <img src="goldimages/gold2.webp" alt="Zether Shimmer">
+            <div class="card-content">
+                <h3>Zether Shimmer</h3>
+                <p>₹ 28,999</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="goldimages/gold5.webp" alt="Obsidian Ray Design">
+            <div class="card-content">
+                <h3>Obsidian Ray Design</h3>
+                <p>₹ 17,999</p>
+            </div>
+        </div>
+
+        <!-- Row 2 - 2 Wide Banner + 1 Card -->
+        <div class="banner">
+            <img src="goldimages/Gemini_Generated_Image_lj34vslj34vslj34.png" alt="Gold Collection Banner">
+        </div>
+        
+        <div class="card">
+            <img src="goldimages/gold5.webp" alt="Stellar Whisper Token">
+            <div class="card-content">
+                <h3>Stellar Whisper Token</h3>
+                <p>₹ 12,424</p>
+            </div>
+        </div>
+
+        <!-- Row 3 - 3 Images -->
+        <div class="card">
+            <img src="goldimages/gold4.webp" alt="Phoenix Rebirth Set">
+            <div class="card-content">
+                <h3>Phoenix Rebirth Set</h3>
+                <p>₹ 45,999</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="goldimages/b.webp" alt="Luxe Heritage">
+            <div class="card-content">
+                <h3>Luxe Heritage</h3>
+                <p>₹ 22,999</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="goldimages/e.webp" alt="Temporal Loop Ornament">
+            <div class="card-content">
+                <h3>Temporal Loop Ornament</h3>
+                <p>₹ 31,999</p>
+            </div>
+        </div>
+
+        <!-- Row 4 - Banner + Card -->
+        <div class="banner">
+            <img src="goldimages/Gemini_Generated_Image_1gyaku1gyaku1gya.jpeg" alt="Luxury Gold Banner">
+        </div>
+        
+        <div class="card">
+            <img src="goldimages/c.webp" alt="Celestial Mosaic">
+            <div class="card-content">
+                <h3>Celestial Mosaic</h3>
+                <p>₹ 31,999</p>
+            </div>
+        </div>
     </div>
-
-</div>
-
-
-
 </body>
 </html>
